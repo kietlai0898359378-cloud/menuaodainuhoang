@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Áo Dài Nữ Hoàng – Makeup</title>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-spring" aria-hidden="true"></div>
+
+    <button id="reopenBtn" class="reopen-btn" aria-label="Mở lại menu">Mở menu</button>
+
+    <div id="popupBackdrop" class="popup-backdrop" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+      <div id="mainPopup" class="main-popup">
+        <button id="closeMainPopup" class="icon-close" aria-label="Đóng popup">×</button>
+
+        <header class="popup-header">
+          <p class="subheading">Bridal Studio</p>
+          <h1 id="popupTitle">ÁO DÀI NỮ HOÀNG – MAKEUP</h1>
+        </header>
+
+        <section class="menu-section" id="ao-dai-section">
+          <h2>Dịch vụ thuê áo dài</h2>
+          <div id="aoDaiGrid" class="service-grid"></div>
+        </section>
+
+        <section class="menu-section" id="makeup-section">
+          <h2>Dịch vụ Makeup</h2>
+          <div id="makeupGrid" class="service-grid"></div>
+
+          <article class="text-card">
+            <h3>Dịch vụ tại nhà</h3>
+            <ul>
+              <li>Nhận makeup cô dâu tại nhà (giá thỏa thuận).</li>
+              <li>Nhận makeup mặt tiệc tại nhà từ 05 người trở lên.</li>
+            </ul>
+          </article>
+
+          <article class="text-card">
+            <h3>Lưu ý dịch vụ makeup cô dâu</h3>
+            <ul>
+              <li>Không dán giùm lông mi.</li>
+              <li>Không uốn hoặc tạo kiểu giùm tóc do không có thời gian phục vụ.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="menu-section" id="combo-section">
+          <h2>Ưu đãi nhóm &amp; Combo</h2>
+          <div id="comboGrid" class="service-grid"></div>
+
+          <article class="text-card">
+            <h3>Phong cách</h3>
+            <p>
+              Thiết kế chủ đề Xuân, nhẹ nhàng, tươi sáng, hài hòa giữa truyền thống và hiện đại. Phù hợp chụp ảnh
+              Tết, lễ ăn hỏi, tiệc cưới và sự kiện.
+            </p>
+          </article>
+
+          <article class="text-card">
+            <h3>Dịch vụ đi kèm</h3>
+            <p>
+              Nhận chụp ảnh gia đình, chụp ảnh Tết và trang điểm theo phong cách phù hợp từng khách hàng. Đội ngũ
+              tư vấn tận tình, hỗ trợ lựa chọn trang phục và concept chụp ảnh. Giá dịch vụ vui lòng liên hệ trực tiếp
+              để được báo giá chi tiết.
+            </p>
+          </article>
+
+          <article class="text-card">
+            <h3>Lưu ý khi thuê áo dài</h3>
+            <ul>
+              <li>Quý khách vui lòng đặt cọc CCCD hoặc tiền mặt khi nhận áo.</li>
+              <li>Vui lòng kiểm tra kỹ áo và phụ kiện trước khi rời khỏi cửa tiệm.</li>
+              <li>Không làm hỏng áo hay phụ kiện.</li>
+              <li>Trường hợp hư hỏng hoặc mất áo hay phụ kiện, bồi thường theo giá trị thịnh hành.</li>
+            </ul>
+          </article>
+        </section>
+
+        <footer class="menu-section contact-section">
+          <h2>Liên hệ &amp; đặt lịch</h2>
+          <div class="contact-card">
+            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/1TwRBoXu3p/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Xem trang</a></p>
+            <p><strong>Zalo / Điện thoại:</strong> <a href="tel:0975635959">0975635959</a></p>
+            <p><strong>Địa chỉ:</strong> 69 Chu Văn An, Thị trấn Buôn Trấp, Huyện Krông Ana, Tỉnh Đắk Lắk</p>
+          </div>
+          <a class="cta-btn" href="tel:0975635959">Liên hệ ngay / Đặt lịch</a>
+        </footer>
+      </div>
+    </div>
+
+    <div id="galleryBackdrop" class="gallery-backdrop" aria-hidden="true">
+      <div class="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="galleryTitle">
+        <button id="closeGallery" class="icon-close" aria-label="Đóng gallery">×</button>
+        <h3 id="galleryTitle">Bộ ảnh dịch vụ</h3>
+        <div id="galleryTrack" class="gallery-track"></div>
+        <div id="galleryDots" class="gallery-dots" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
